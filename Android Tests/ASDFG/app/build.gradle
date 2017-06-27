@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.example.hectorgoan.asdfg"
+        minSdkVersion 14
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:20.0.0'
+
+    //Core card library
+    compile 'com.github.gabrielemariotti.cards:library:1.8.0'
+
+    //Extra card library, it is required only if you want to use integrations with other libraries
+    compile 'com.github.gabrielemariotti.cards:library-extra:1.8.0'
+}

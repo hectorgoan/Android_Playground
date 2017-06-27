@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DECLARACIÓN DE STRINGS -->
+
+    <!-- String para nombre de la app -->
+    <string name="app_name">SliderOK</string>
+
+    <!-- String para los títulos de Secciones -->
+    <string name="title_section1">Area 1</string>
+    <string name="title_section2">Area 2</string>
+    <string name="title_section3">Area 3</string>
+
+    <!-- String para lo que hace el Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- String para las acciones -->
+    <string name="action_example">Acción de Ejemplo</string>
+    <string name="action_settings">Opciones</string>
+
+</resources>
